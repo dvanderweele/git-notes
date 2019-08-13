@@ -60,29 +60,29 @@ A version of the above command that shows you the URLs git has stored for the sh
 ```bash
 git remote -v
 ```
-Add a new remote git repo at <url> called <shortname>:
+Add a new remote git repo at [url] called [shortname]:
 ```bash
-git remote add <shortname> <url>
+git remote add [shortname] [url]
 ```
-Given remote repo called <shortname>, get all info in that repo that you don't have yet in your local repo:
+Given remote repo called [shortname], get all info in that repo that you don't have yet in your local repo:
 ```bash
-git fetch <shortname>
+git fetch [shortname]
 ```
-Push changes to <remote> <branch>:
+Push changes to [remote] [branch]:
 ```bash
-git push <remote> <branch>
+git push [remote] [branch]
 ```
 See more info about a particular remote:
 ```bash
-git remote show <remote>
+git remote show [remote]
 ```
 Rename shortname of remote thing1 to thing2:
 ```bash
 git remote rename thing1 thing2
 ```
-Remove remote <shortname>:
+Remove remote [shortname]:
 ```bash
-git remote remove <shortname>
+git remote remove [shortname]
 ```
 List your tags:
 ```bash
